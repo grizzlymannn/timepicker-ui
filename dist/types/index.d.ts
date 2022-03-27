@@ -287,4 +287,4 @@ declare class TimepickerUI {
     private _handleEscClick;
 }
 
-export { TimepickerUI };
+export { OptionTypes, TimepickerUI };

@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.4.2] - 2022-03-27
+
+### Fix
+
+- fixed problem with editable option when switch during desktop/mobile options
+
+---
+
 ## [2.4.1] - 2022-03-26
 
 ### Add

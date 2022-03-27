@@ -1533,6 +1533,8 @@ export default class TimepickerUI {
 
       this._isMobileView = true;
       this._options.mobile = true;
+      this._options.preventDefault = false;
+      this._options.editable = true;
 
       const beforeHourContent = this.hour.textContent;
       const beforeMinutesContent = this.minutes.textContent;
@@ -1586,6 +1588,8 @@ export default class TimepickerUI {
 
       this._isMobileView = false;
       this._options.mobile = false;
+      this._options.preventDefault = true;
+      this._options.editable = false;
 
       const beforeHourContent = this.hour.textContent;
       const beforeMinutesContent = this.minutes.textContent;
@@ -1600,6 +1604,8 @@ export default class TimepickerUI {
 
         this._isMobileView = true;
         this._options.mobile = true;
+        this._options.preventDefault = false;
+        this._options.editable = false;
 
         this.hour.textContent = beforeHourContent;
         this.minutes.textContent = beforeMinutesContent;
